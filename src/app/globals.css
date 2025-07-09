@@ -1,2 +1,6 @@
 @import "tailwindcss";
 
+.swiper-pagination-bullet{
+    background-color: #fff!important;
+    opacity: 1 ;
+}

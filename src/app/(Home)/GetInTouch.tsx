@@ -43,7 +43,7 @@ const GetInTouch = () => {
 
       const data = await res.json();
       if (data.success) {
-        toast.success('Thank you! We will keep you updated.');
+        toast.success('Message sent successfully!');
         resetForm(); // Reset form fields
       } else {
         toast.error('Failed to send message.');
@@ -80,7 +80,7 @@ const GetInTouch = () => {
   return (
     <section
       id="get-in-touch"
-      className="bg-[#0067B1] py-[50px] lg:py-[100px] 2xl:py-[205px] px-4 sm:px-6 lg:px-8 xl:px-[80px] 2xl:gap-[150px] flex items-center justify-center "
+      className="scroll-mt-[70px] bg-[#0067B1] py-[50px] lg:py-[100px] 2xl:py-[205px] px-4 sm:px-6 lg:px-8 xl:px-[80px] 2xl:gap-[150px] flex items-center justify-center "
     >
       <div className=" 2xl:p-10 w-full max-w-[1100px] grid grid-cols-1 md:grid-cols-2 gap-8  text-white">
         {/* Left Side */}
