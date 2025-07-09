@@ -114,7 +114,7 @@ Database & API handling in lib/, models/, and api/.
 
 Configuration with tailwind.config.ts, eslint.config.mjs, etc.
 
-
+```
 ---
 
 ## 📱 Responsive Design Strategy
