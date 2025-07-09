@@ -18,6 +18,7 @@ const Header = () => {
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsOpen(false); // Close the mobile menu after clicking
   };
 
   // This toggles between "ENG" and "हिंदी"
@@ -31,12 +32,14 @@ const Header = () => {
         <div className="flex justify-between items-center ">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
+            <Link href={"/"}>
             <Image
               src="/assests/navbar/logo.png"
               alt="Supreme Group"
               width={146}
               height={40}
             />
+            </Link>
           </div>
 
           {/* Desktop Menu */}

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { footerLinks } from './data';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -8,12 +9,15 @@ const Footer = () => {
       <div className="2xl:max-w-[988px] mt-[40px] mx-auto px-0">
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
+                      <Link href={"/"}>
+
           <Image
             src="/assests/navbar/logo.png"
             alt="Supreme Group"
             width={226}
             height={63}
           />
+          </Link>
         </div>
 
         {/* Links */}
