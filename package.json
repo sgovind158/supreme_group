@@ -11,7 +11,6 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "daisyui": "^5.0.46",
     "formik": "^2.4.6",
     "framer-motion": "^12.23.0",
     "lucide-react": "^0.525.0",
@@ -22,6 +21,7 @@
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.5",
     "sass": "^1.89.2",
+    "swiper": "^11.2.10",
     "tailwind-merge": "^3.3.1",
     "yup": "^1.6.1"
   },
@@ -29,6 +29,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

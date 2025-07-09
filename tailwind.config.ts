@@ -1,4 +1,3 @@
-import daisyui from "daisyui";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -22,5 +21,4 @@ export default {
       xl2: "1536px",
     },
   },
-  plugins: [daisyui], // Add DaisyUI plugin here
 } satisfies Config;
