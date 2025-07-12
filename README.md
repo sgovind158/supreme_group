@@ -1,8 +1,7 @@
 
-# Supreme Group Website (Frontend Assignment)
+# Supreme Group Website 
 
-A responsive, accessible, and performant website for **Supreme Group**, built with **Next.js**, **TypeScript**, **Tailwind CSS**, and modern best practices. This project is part of a technical assignment for the Frontend Developer position at **Blacksof**.
-
+A responsive, accessible, and performant website for **Supreme Group**, built with **Next.js**, **TypeScript**, **Tailwind CSS**, and modern best practices. 
 ---
 
 ## 🚀 Deployed URL
