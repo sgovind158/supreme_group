@@ -1,7 +1,7 @@
 
-# Supreme Group Website 
+# Supreme Group Landing Page Clone
 
-A responsive, accessible, and performant website for **Supreme Group**, built with **Next.js**, **TypeScript**, **Tailwind CSS**, and modern best practices. 
+A responsive, accessible, and performant landing page , built with **Next.js**, **TypeScript**, **Tailwind CSS**, and modern best practices. 
 ---
 
 ## 🚀 Deployed URL
